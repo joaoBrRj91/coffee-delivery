@@ -1,4 +1,5 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
+import { mixins } from "./mixins";
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -8,7 +9,17 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-     background: ${props => props.theme['background-cover']};
+     background: ${(props) => props.theme.colors.backgroundCover};
+     color: ${(props) => props.theme.colors.baseText};
+     -webkit-font-smoothing: antialiased;
     }
 
+    body, input, textarea, button {
+      ${mixins.fonts.textM};
+    }
+
+    button {
+        border: none;
+        cursor: pointer;
+    }
 `;
