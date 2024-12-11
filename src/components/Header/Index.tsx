@@ -25,9 +25,9 @@ export function Header() {
         </div>
 
         <Link to="/" aria-disabled={cart.length === 0}>
-          <ShoppingCart size={22} />
+          <ShoppingCart size={22} weight="fill" />
+          {cart.length > 0 ? <span>{cart.length}</span> : null}
         </Link>
-        {cart.length > 0 ? <span>{cart.length}</span> : null}
       </Aside>
     </HeaderContainer>
   );
