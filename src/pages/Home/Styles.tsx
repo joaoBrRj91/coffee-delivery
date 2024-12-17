@@ -13,7 +13,22 @@ export const InfoContainer = styled.section`
   }
 `;
 
-export const InfoContent = styled.div``;
+export const InfoContent = styled.div`
+  max-width: 1440px;
+  padding: 92px 20px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 77px;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+`;
 
 export const InfoHeaderContent = styled.div``;
 
