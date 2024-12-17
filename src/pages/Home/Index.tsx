@@ -6,7 +6,7 @@ import {
   InfoHeaderContent,
 } from "./Styles";
 
-import homeBackgroundImage from "../../../public//assets/pages/home/home-container-background.svg";
+import homeBackgroundImage from "../../../public/assets/pages/home/home-container-background.svg";
 import homeCoffeePrincipalImage from "../../../public/assets/pages/home/home-coffee-principal.svg";
 
 export function Home() {

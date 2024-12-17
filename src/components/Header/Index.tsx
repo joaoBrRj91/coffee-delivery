@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ShoppingCart, MapPin } from "@phosphor-icons/react";
 
 import { HeaderContainer, Aside } from "./Styles";
-import logoCoffeDelivery from "../../assets/logo.svg";
+import logoCoffeDelivery from "../../../public/logo.svg";
 
 interface Product {
   name: string;
