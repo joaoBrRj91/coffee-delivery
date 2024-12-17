@@ -27,7 +27,11 @@ export function Home() {
             <Info>Entrega rápida e rastreada</Info>
             <Info>O café chega fresquinho até você</Info>
           </div>
-          <img src={homeCoffeePrincipalImage} alt="Café do Coffee Delivery" />
+          <img
+            id="principal-image"
+            src={homeCoffeePrincipalImage}
+            alt="Café do Coffee Delivery"
+          />
         </InfoContent>
         <img src={homeBackgroundImage} />
       </InfoContainer>
