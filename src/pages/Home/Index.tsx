@@ -28,12 +28,12 @@ export function Home() {
             <Info>O café chega fresquinho até você</Info>
           </div>
           <img
-            id="principal-image"
+            id="principal-img"
             src={homeCoffeePrincipalImage}
             alt="Café do Coffee Delivery"
           />
         </InfoContent>
-        <img src={homeBackgroundImage} />
+        <img id="home-bg" src={homeBackgroundImage} />
       </InfoContainer>
 
       <CoffeeListContainer>
