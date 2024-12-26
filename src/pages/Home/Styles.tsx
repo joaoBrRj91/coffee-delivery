@@ -26,11 +26,24 @@ export const InfoContent = styled.div`
   > div {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
   }
 `;
 
-export const InfoHeaderContent = styled.div``;
+export const InfoHeaderContent = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  > h1 {
+    ${mixins.fonts.titleXL}
+    color: ${({ theme }) => theme.colors.baseTitle}
+  }
+
+  > span {
+    ${mixins.fonts.textL}
+    color: ${({ theme }) => theme.colors.baseSubtitle}
+  }
+`;
 
 export const Info = styled.div``;
 
