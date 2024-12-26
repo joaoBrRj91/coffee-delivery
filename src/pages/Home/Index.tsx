@@ -25,45 +25,46 @@ export function Home() {
               Com o Coffee Delivery você recebe seu café onde estiver, a
               qualquer hora
             </span>
+            <Info>
+              <div>
+                <ShoppingCart
+                  size={32}
+                  weight="fill"
+                  color={theme.colors.white}
+                  style={{ backgroundColor: theme.colors.yellowDark }}
+                />
+                <span>Compra simples e segura</span>
+              </div>
+              <div>
+                <Package
+                  size={32}
+                  weight="fill"
+                  color={theme.colors.white}
+                  style={{ backgroundColor: theme.colors.baseText }}
+                />
+                <span>Embalagem mantém o café intacto</span>
+              </div>
+              <div>
+                <Timer
+                  size={32}
+                  weight="fill"
+                  color={theme.colors.white}
+                  style={{ backgroundColor: theme.colors.yellow }}
+                />
+                <span>Entrega rápida e rastreada</span>
+              </div>
+              <div>
+                <Coffee
+                  size={32}
+                  weight="fill"
+                  color={theme.colors.white}
+                  style={{ backgroundColor: theme.colors.purple }}
+                />
+                <span>O café chega fresquinho até você</span>
+              </div>
+            </Info>
           </InfoHeaderContent>
-          <Info>
-            <div>
-              <ShoppingCart
-                size={32}
-                weight="fill"
-                color={theme.colors.white}
-                style={{ backgroundColor: theme.colors.yellowDark }}
-              />
-              <span>Compra simples e segura</span>
-            </div>
-            <div>
-              <Package
-                size={32}
-                weight="fill"
-                color={theme.colors.white}
-                style={{ backgroundColor: theme.colors.baseText }}
-              />
-              <span>Embalagem mantém o café intacto</span>
-            </div>
-            <div>
-              <Timer
-                size={32}
-                weight="fill"
-                color={theme.colors.white}
-                style={{ backgroundColor: theme.colors.yellow }}
-              />
-              <span>Entrega rápida e rastreada</span>
-            </div>
-            <div>
-              <Coffee
-                size={32}
-                weight="fill"
-                color={theme.colors.white}
-                style={{ backgroundColor: theme.colors.purple }}
-              />
-              <span>O café chega fresquinho até você</span>
-            </div>
-          </Info>
+
           <img
             id="principal-img"
             src={homeCoffeePrincipalImage}
