@@ -40,11 +40,27 @@ export const InfoHeaderContent = styled.div`
   }
 
   > span {
-    ${mixins.fonts.textL}
-    color: ${({ theme }) => theme.colors.baseSubtitle}
+    ${mixins.fonts.textL};
+    color: ${({ theme }) => theme.colors.baseSubtitle};
+    margin-bottom: 66px;
   }
 `;
 
-export const Info = styled.div``;
+export const Info = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    svg {
+      padding: 8px;
+      border-radius: 999px;
+    }
+  }
+`;
 
 export const CoffeeListContainer = styled.section``;
