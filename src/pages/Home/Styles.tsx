@@ -14,7 +14,7 @@ export const InfoContainer = styled.section`
 `;
 
 export const InfoContent = styled.div`
-  max-width: 1440px;
+  max-width: 1200px;
   padding: 92px 20px;
   margin: 0 auto;
 
@@ -54,7 +54,7 @@ export const Info = styled.div`
   > div {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 
     svg {
       padding: 8px;
