@@ -79,6 +79,8 @@ export function Home() {
         <div>
           <div>Expresso Tradicional</div>
           <div>Expresso Americano</div>
+          <div>Expresso Cremoso</div>
+          <div>Expresso Gelado</div>
         </div>
       </CoffeeListContainer>
     </div>
